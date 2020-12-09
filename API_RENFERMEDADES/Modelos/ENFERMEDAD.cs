@@ -7,7 +7,7 @@ namespace API_RENFERMEDADES.Modelos
 {
     public class ENFERMEDAD
     {
-        public int n_ficha_paciente { get; set; }
+        public int idenfermedad { get; set; }
         public String nombre_tecnico { get; set; }
         public String descripcion { get; set; }
     }
