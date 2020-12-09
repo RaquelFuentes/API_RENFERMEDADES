@@ -41,6 +41,16 @@ namespace API_RENFERMEDADES.Conection
             throw new NotImplementedException();
         }
 
+        internal static ENFERMEDAD ObtenerENFERMEDAD(int idConvertido)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static ENFERMEDAD ObtenerENFERMEDAD(string eNFERMEDAD)
+        {
+            throw new NotImplementedException();
+        }
+
         private static object ConsultaSqlEnfermedad(SqlConnection connection, string consultaSql)
         {
             throw new NotImplementedException();

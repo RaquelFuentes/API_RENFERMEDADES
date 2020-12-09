@@ -41,7 +41,27 @@ namespace API_RENFERMEDADES.Conection
             throw new NotImplementedException();
         }
 
+        internal static PACIENTE ObtenerPACIENTEPorNombre(string rut)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static PACIENTE ObtenerPACIENTEPorrut(int rutConvertido)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static PACIENTE ObtenerPACIENTEporrut(int rutConvertido)
+        {
+            throw new NotImplementedException();
+        }
+
         private static object AbrirConexionSqlPACIENTES(SqlConnection sqlConnection)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void AgregarPACIENTE(PACIENTE paciente)
         {
             throw new NotImplementedException();
         }
